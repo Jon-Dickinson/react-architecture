@@ -2,8 +2,9 @@
 
 ## Efficient component hierarchies
 
-### Method 1
+This app demonstrates various component architecture
 
+### Method 1
 
 function component &#8594; class component &#8594; container class component
 
@@ -28,5 +29,17 @@ export const API_KEY = "your-api-key"
 
   - prop-types
   - axios
+  
+### (WIP...)
 
-### (WIP)
+### Method 2
+
+React have introduced Hooks and Context in order to provide more native functionality to manage state.
+
+| Hooks | Context	|
+|--------------------	|-----------------	|
+| Various Types             | Nesting          	|
+
+| Redux	|
+|--------------------	|
+| Actions + Reducers               	|
