@@ -2,7 +2,7 @@
 
 ## Efficient component hierarchies
 
-This app demonstrates various component architecture
+This app examines various component tree hierarchies.
 
 ### Method 1
 
