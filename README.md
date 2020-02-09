@@ -4,7 +4,15 @@
 
 ### Method 1
 
+
 function component &#8594; class component &#8594; container class component
+
+Function components should be authored and modified more frequently than class components and container class components.
+
+| f (c) 	| class (c) | container class (c)	|
+|--------------------	|-----------------	|---------------------------	|
+| High               	| Medium          	| Low                       	|
+
 
 ![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitecture.jpg)
 
