@@ -17,7 +17,7 @@ Function components should be authored and modified more frequently than class c
 
 ![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitecture.jpg)
 
-Register with `guardianapis.com` for free API key and add it to `config.js`
+Register with `guardianapis.com` for a free API key and add it to `config.js`
 
 ```javascript
 export const API_KEY = "your-api-key"
