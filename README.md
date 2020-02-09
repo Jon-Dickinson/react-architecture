@@ -1,8 +1,9 @@
 # React Architecture
 
-The real reason why React is popular:
-1. React currently has the most efficient state management system
-2. A vanilla JavaScript version of a React app would be cumbersome, slow and almost four times the size.
+The real reason why React is popular: React currently has the most efficient state management system
+
+1. React is currently the leader in terms of keeping the state up to date with user events and changes in data
+2. A vanilla JavaScript version of a React app would be cumbersome, slow and almost four times the size
 
 ## Efficient component hierarchies
 
