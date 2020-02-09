@@ -1,5 +1,9 @@
 # React Architecture
 
+The real reason why React is popular:
+1. React currently has the most efficient state management system
+2. A vanilla JavaScript version of a React app would be cumbersome, slow and almost four times the size.
+
 ## Efficient component hierarchies
 
 This app examines various component tree hierarchies.
@@ -34,7 +38,7 @@ export const API_KEY = "your-api-key"
 
 ### Method 2
 
-React have introduced Hooks and Context in order to provide more native functionality to manage state.
+React have introduced Hooks and Context in order to provide more native functionality for state management.
 
 | Hooks | Context	|
 |--------------------	|-----------------	|
