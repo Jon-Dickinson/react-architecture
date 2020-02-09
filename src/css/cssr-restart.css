@@ -1,0 +1,290 @@
+/* ==========================================================================
+   elements that require additional base styling
+   ========================================================================== */
+
+button,
+input {
+    overflow: hidden;
+    outline: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+}
+
+:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul,
+ol {
+    margin-left: 0;
+}
+
+ul li,
+ol li {
+    line-height: 2;
+}
+
+small {
+    font-size: 75%;
+}
+
+time {
+    font-size: 75%;
+}
+
+html [overflow-x-h] {
+    overflow-x: hidden;
+}
+
+html [overflow-y-h] {
+    overflow-y: hidden;
+}
+
+input[type="search"] {
+    /* reset normalize */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: magenta;
+    color: white;
+}
+
+::-moz-selection {
+    background: magenta;
+    color: white;
+}
+
+pre::-moz-selection {
+    color: #f2f2f2;
+    background-color: #FF07FE;
+}
+
+pre::selection {
+    color: #f2f2f2;
+    background-color: #FF07FE;
+}
+
+xmp::-moz-selection {
+    color: #ffffff;
+    background-color: #FF07FE;
+}
+
+xmp::selection {
+    color: #ffffff;
+    background-color: #FF07FE;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+::-moz-placeholder {
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.cssr-input:focus {
+    outline: none;
+}
+
+.cssr-input::-ms-clear {
+    /* remove cross in IE */
+    display: none;
+}
+
+/* placeholder */
+.cssr-input::-webkit-input-placeholder {
+    color: var(--color-default);
+}
+
+.cssr-input:-moz-placeholder {
+    color: var(--color-default);
+}
+
+.cssr-input::-moz-placeholder {
+    color: var(--color-default);
+}
+
+.cssr-input:-ms-input-placeholder {
+    color: var(--color-default);
+}
+
+/* hide placeholder when active in Chrome */
+.cssr-search:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input::-moz-placeholder {
+    color: #ffffff;
+}
+
+input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+select {
+    padding: 5px 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+small {
+    margin-top: 5px;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: default;
+}
+
+[element-disabled] {
+    opacity: 0.6;
+}
+
+:enabled:focus {
+    outline: none;
+}
+
+input,
+button,
+textarea,
+input[type=button],
+input[type=reset],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+input[type=text],
+input[type=password],
+input[type=image] {
+    display: inline-block;
+}
+
+input,
+input[type=button],
+input[type=reset],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+input[type=text],
+input[type=password],
+input[type=image] {
+    white-space: nowrap;
+}
+
+button {
+    /* white space handling of BUTTON tags in particular */
+    white-space: normal;
+}
+
+input[type=reset]:lang(en) {
+    /* default content of HTML input type=reset button, per language */
+    content: "Reset";
+}
+
+input[type=submit]:lang(en) {
+    /* default content of HTML input type=submit button, per language */
+    content: "Submit";
+}
+
+/* UAs should use language-specific Reset/Submit rules for others. */
+
+input[type=button],
+input[type=reset][value],
+input[type=submit][value] {
+    /* text content/labels of HTML "input" buttons */
+    content: attr(value);
+}
+
+textarea {
+    /* white space handling of TEXTAREA tags in particular */
+    white-space: pre-wrap;
+    resize: both;
+}
+
+input[type=hidden] {
+    /* appearance of the HTML hidden text field in particular */
+    display: none !important;
+}
+
+input[type=image] {
+    content: attr(src, url);
+    border: none;
+}
+
+select[size] {
+    /* HTML4/XHTML1 <select> w/ size more than 1 - appearance of list */
+    display: inline-block;
+    height: attr(size, em);
+}
+
+select,
+select[size=1] {
+    /* HTML4/XHTML1 <select> without size, or size=1 - popup-menu */
+    display: inline-block;
+    height: 1em;
+    overflow: hidden;
+}
+
+select[size]:active {
+    /* active HTML <select> w/ size more than 1 - appearance of active list */
+    display: inline-block;
+}
+
+optgroup,
+option {
+    display: block;
+    white-space: nowrap;
+}
+
+optgroup[label],
+option[label] {
+    content: attr(label);
+}
+
+option[selected]::before {
+    display: inline;
+    content: check;
+}

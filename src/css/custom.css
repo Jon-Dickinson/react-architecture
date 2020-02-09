@@ -1,0 +1,152 @@
+.bg-00447f {
+  background-color: #00447f;
+}
+
+.bg-ddd {
+  background-color: #dddddd;
+}
+
+.bg-373c4f {
+  background-color: #373c4f;
+}
+
+.bg-36474f {
+  background-color: #36474f;
+}
+
+.bg-661fff {
+  background-color: #661fff;
+}
+
+.bg-36474f {
+  background-color: #36474f;
+}
+
+.bg-373c4f {
+  background-color: #373c4f;
+}
+
+.bg-fade34 {
+  background-color: #fade34;
+}
+
+.bg-333333 {
+  background-color: #333333;
+}
+
+.bg-color--blue-r-1-center:after {
+  background-color: #2196F3;
+}
+
+.bg-color--green-r-1-center:after {
+  background-color: #4CAF50;
+}
+
+.bg-color--magenta-r-1-center:after {
+  background-color: #E91E63;
+}
+
+.bg-color--blue {
+  background-color: #2196F3;
+}
+
+[bg-color--455a64] {
+  background-color: #1c313a;
+}
+
+.bg-color--green {
+  background-color: #4CAF50;
+}
+
+.bg-color--magenta {
+  background-color: #E91E63;
+}
+
+.border-2px-blue {
+  border: 2px solid #2196F3 !important;
+}
+
+.border-2px-magenta {
+  border: 2px solid #E91E63 !important;
+}
+
+.border-2px-green {
+  border: 2px solid #4CAF50 !important;
+}
+
+.border-2px-purple {
+  border: 2px solid #aa00ff !important;
+}
+
+.rotate-90-anti {
+  transform: rotate(-90deg);
+}
+
+.pie-items {
+  width: 100% !important;
+  min-height: 150px;
+}
+
+.pad-all-5 {
+  padding: 5px !important;
+}
+
+.content-wrap .transform-to-center {
+  transform: translateX(-160px);
+}
+
+@media screen and (max-width: 1540px) {
+
+  .content-wrap .transform-to-center {
+    transform: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .fixed-wrapper {
+    position: relative;
+    height: 100%;
+  }
+
+  .absolute-wrapper {
+    position: relative;
+  }
+
+  .side-bar__320 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .portfolio__content {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .tabs nav ul {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .vertical-inline-flex.max-w-170p {
+    max-width: 100% !important;
+  }
+
+  .content-wrap {
+    overflow: hidden !important;
+    margin-top: 0 !important;
+  }
+
+  body {
+    overflow-y: scroll !important;
+  }
+
+  .border-r-1px-silver {
+    border-bottom: 1px solid #cdcdcd !important;
+ }
+
+}
