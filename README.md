@@ -35,16 +35,16 @@ export const API_KEY = "your-api-key"
   - prop-types
   - axios
   
-### (WIP...)
-
+  
 ### Method 2
 
-React have introduced Hooks and Context in order to provide more native functionality for state management.
+class component &#8594; container class component
 
-| Hooks | Context	|
+Function components should be authored and modified more frequently than class components and container class components.
+
+| class (c) | container class (c)	|
 |--------------------	|-----------------	|
-| Various Types             | Nesting          	|
+| this.props              	| data set          	|
 
-| Redux	|
-|--------------------	|
-| Actions + Reducers               	|
+
+### WIP
