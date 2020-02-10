@@ -20,7 +20,7 @@ Function components should be authored and modified more frequently than class c
 | High               	| Medium          	| Low                       	|
 
 
-![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitecture.jpg)
+![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitectureB.jpg)
 
 Register with `guardianapis.com` for a free API key and add it to `config.js`
 
