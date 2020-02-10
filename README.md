@@ -30,17 +30,12 @@ export const API_KEY = "your-api-key"
 
 ![screenshot2](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/screenshot.png)
 
-### Packages
-
-  - prop-types
-  - axios
-  
   
 ### Method 2
 
-class component &#8594; container class component
+Importing class component &#8594; container
 
-Function components should be authored and modified more frequently than class components and container class components.
+Passing props from container &#8594; class component
 
 | class (c) | container class (c)	|
 |--------------------	|-----------------	|
