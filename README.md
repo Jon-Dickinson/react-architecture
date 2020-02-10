@@ -42,4 +42,7 @@ Passing props from container &#8594; class component
 | this.props              	| data set          	|
 
 
-### WIP
+
+
+
+### ... WIP
