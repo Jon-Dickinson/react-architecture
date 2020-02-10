@@ -9,6 +9,8 @@ The real reason why React is popular: React currently has the most efficient sta
 
 This app examines various component tree hierarchies.
 
+![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitectureB.jpg)
+
 ### Method 1
 
 function component &#8594; class component &#8594; container class component
@@ -19,8 +21,6 @@ Function components should be authored and modified more frequently than class c
 |--------------------	|-----------------	|---------------------------	|
 | High               	| Medium          	| Low                       	|
 
-
-![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitectureB.jpg)
 
 Register with `guardianapis.com` for a free API key and add it to `config.js`
 
