@@ -5,7 +5,7 @@ class ClassContainerB extends React.Component {
   render() {
     return (
       <div className="vertical-inline-flex bg-661fff pad-all-20">
-        <p className="color-ffffff">Class Container B</p>
+        <p className="color-ffffff">Class Container</p>
         <ClassComponentB />
       </div>
     );

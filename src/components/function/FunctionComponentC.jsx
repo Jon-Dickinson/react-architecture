@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 const SearchResults = ({ articles = [] }) => (
   <div className="vertical-inline-flex bg-color--magenta pad-lr-20 pad-tb-10">
-    {/* <p className="color-ffffff">Search Results</p> */}
     <ul>
       {articles.map(({ webUrl, webTitle }) => (
         <li key={webUrl}>

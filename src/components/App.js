@@ -1,6 +1,7 @@
 import React from 'react';
 import ClassContainerB from './class-container/ClassContainerB';
 import ClassContainerC from './class-container/ClassContainerC';
+import ClassContainerD from './class-container/ClassContainerD';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         
           <ClassContainerB />
           <ClassContainerC />
+          <ClassContainerD />
 
       </div>
     </div>
