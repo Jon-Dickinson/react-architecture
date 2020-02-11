@@ -1,5 +1,5 @@
 import React from "react";
-import ClassComponentD from '../class-component/ClassComponentD'
+import ClassComponentD from '../class/ClassComponentD'
 
 const dataA = { a: "A", b: "B" };
 

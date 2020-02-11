@@ -1,5 +1,5 @@
 import React from "react";
-import ClassComponentB from '../class-component/ClassComponentB'
+import ClassComponentB from '../class/ClassComponentB'
 
 class ClassContainerB extends React.Component {
   render() {

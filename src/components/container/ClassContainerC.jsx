@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "../class-component/ClassComponentC";
+import Search from "../class/ClassComponentC";
 
 import fetchArticles from "../../api/API1";
 
