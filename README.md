@@ -170,42 +170,52 @@ const greeting = (
 
 #  Popular component types
 
-React Class Component
+Class Component
 ```javascript
 import React, { Component } from 'react'
 
 export default class FileName extends Component {
   render() {
-    return <div>$2</div>
+    return <div> 💥 </div>
   }
 }
 ```
 
-React Class Component With Prop Types
+Class Component With Prop Types
 ```javascript
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from "react";
 
-export class FileName extends Component {
-  static propTypes = {}
-
+class Person extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      myState: true;
+    }
+  }
+  
   render() {
-    return <div>$2</div>
+    return (
+      <div>
+        <h1>Hello Person</h1>
+      </div>
+    );
   }
 }
 
-export default $1
+export default Person;
 ```
 
-React Functional Component
+Functional Component
 ```javascript
-import React from 'react'
+import React from "react";
 
-export default function $1() {
-  return <div>$0</div>
-  } () {
-  return <div>$0</div>
-}
+const Person = props => (
+  <div>
+    <h1>Hello, {props.name}</h1>
+  </div>
+);
+
+export default Person;
 ```
 
 
