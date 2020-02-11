@@ -1,8 +1,11 @@
 import React from 'react';
-import ClassContainerB from './class-container/ClassContainerB';
-import ClassContainerC from './class-container/ClassContainerC';
-import ClassContainerD from './class-container/ClassContainerD';
 
+import ClassContainerB from './container/ClassContainerB';
+import ClassContainerC from './container/ClassContainerC';
+import ClassContainerD from './container/ClassContainerD';
+
+import TopBar from './class/ClassComponentE';
+import ProductList from './class/ClassComponentF';
 
 function App() {
   return (
@@ -12,6 +15,11 @@ function App() {
           <ClassContainerB />
           <ClassContainerC />
           <ClassContainerD />
+
+          <TopBar className="top-bar" />
+          <div className="container">
+            <ProductList />
+          </div>
 
       </div>
     </div>
