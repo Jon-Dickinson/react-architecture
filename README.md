@@ -174,7 +174,7 @@ const greeting = (
 
 #  Popular component types
 
-Class Component
+## Class Component
 ```javascript
 import React, { Component } from 'react'
 
@@ -185,7 +185,7 @@ export default class FileName extends Component {
 }
 ```
 
-Class Component With Prop Types
+## Class Component With Prop Types
 ```javascript
 import React, { Component } from "react";
 
@@ -209,7 +209,7 @@ class Person extends Component {
 export default Person;
 ```
 
-Functional Component
+## Functional Component
 ```javascript
 import React from "react";
 
@@ -297,9 +297,19 @@ componentWillUnmount = () => { }
 
 ![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/ReactArchitectureB.jpg)
 
-### Method 1
+&nbsp;
+### Set A
 
-function component &#8594; class component &#8594; container class component
+```
+container + class + function → function
+```
+
+&nbsp;
+### Set B
+
+```
+container → class → function
+```
 
 Function components should be authored and modified more frequently than class components and container class components.
 
@@ -307,6 +317,12 @@ Function components should be authored and modified more frequently than class c
 |--------------------	|-----------------	|---------------------------	|
 | High               	| Medium          	| Low                       	|
 
+&nbsp;
+### Set C
+
+```
+container → class → function
+```
 
 Register with `guardianapis.com` for a free API key and add it to `config.js`
 
@@ -314,18 +330,27 @@ Register with `guardianapis.com` for a free API key and add it to `config.js`
 export const API_KEY = "your-api-key"
 ```
 
-### Method 2
+&nbsp;
+### Set D
 
-Importing class component &#8594; container
+```
+container ┳━ class
+          ┗━ function
+```
 
-Passing props from container &#8594; class component
+&nbsp;
+### Set E
 
-| class (c) | container class (c)	|
-|--------------------	|-----------------	|
-| this.props              	| data set          	|
+```
+function ┳━ class
+         ┗━ function
+```
 
+&nbsp;
+### Set F
 
-
-
-
-### ... WIP
+```
+container ┳━ function
+          ┠━ function
+          ┗━ class ━ function
+```
