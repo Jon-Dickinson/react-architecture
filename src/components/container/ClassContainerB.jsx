@@ -4,7 +4,7 @@ import ClassComponentB from '../class/ClassComponentB'
 class ClassContainerB extends React.Component {
   render() {
     return (
-      <div className="vertical-inline-flex bg-661fff pad-all-20">
+      <div className="vertical-inline-flex bg-661fff pad-all-20 shadow-3">
         <p className="color-ffffff">Class Container</p>
         <ClassComponentB />
       </div>

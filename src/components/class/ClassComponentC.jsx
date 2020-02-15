@@ -3,10 +3,22 @@ import SearchResults from "../function/FunctionComponentC";
 import PropTypes from "prop-types";
 
 class Search extends React.Component {
-  state = {
-    value: ""
-  };
 
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  //  runs after DOM render
+  componentDidMount() { }
+
+  //  removes and updates
+  componentWillUnmount() { }
+
+  function() {
+    this.setState({  });
+  }
+   
   handleChange = event => {
     let value = event.target.value;
     this.setState({ value });
@@ -19,7 +31,7 @@ class Search extends React.Component {
 
   render() {
     return (
-      <div className="vertical-inline-flex bg-color--blue pad-all-20">
+      <div className="vertical-inline-flex bg-color--blue pad-all-20 shadow-3">
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"

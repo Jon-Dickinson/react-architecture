@@ -1,9 +1,29 @@
 import React from "react"; 
 
 class ClassComponentD extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  //  runs after DOM render
+  componentDidMount() {
+
+  }
+
+  //  removes and updates
+  componentWillUnmount() {
+
+  }
+
+  function() {
+    this.setState({  });
+  }
+   
   render() {
     return (
-      <div className="vertical-inline-flex bg-color--blue pad-all-20">
+      <div className="vertical-inline-flex bg-color--blue pad-all-20 shadow-3">
 <xmp className="color--white margin-b-10">
 &#123;this.props.info.a&#125;
 </xmp>

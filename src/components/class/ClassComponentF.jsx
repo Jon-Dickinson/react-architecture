@@ -1,39 +1,43 @@
-import React, { Component } from "react";
-import { products } from "../function/FunctionComponentE";
+import React from "react"; 
+import FunctionComponentF from '../function/FunctionComponentF'
 
-export default class ProductList extends Component {
-  
-  share() {
-    window.alert("The product has been shared!");
+import dataC from '../api/DataC'
+
+class ClassComponentF extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
 
-  getProduct(product, index) {
+  //  runs after DOM render
+  componentDidMount() {
+
+  }
+
+  //  removes and updates
+  componentWillUnmount() {
+
+  }
+
+  function() {
+    this.setState({  });
+  }
+   
+  render() {
     return (
-      <div key={index}>
-        <h3>
-          <a title={product.name + " details"} href="/">
-            {product.name}
-          </a>
-        </h3>
-        <p>Description: {product.description} </p>
-        <button className="btn" onClick={this.share}>
-          Share
-        </button>
+      <div className="vertical-inline-flex bg-color--blue pad-all-20 shadow-3">
+<xmp className="color--white margin-b-20">
+import dataC from '../api/DataC'
+</xmp>
+<xmp className="color--white margin-b-10">
+&lt;FunctionComponentF info=&#123;dataC&#125; /&gt;
+</xmp> 
+        <FunctionComponentF info={dataC} />
+
       </div>
     );
   }
-
-  render() {
-    return (
-      <>
-        <h2>Products</h2>
-        <br />
-        <div>
-          {products.map((product, index) => {
-            return this.getProduct(product, index);
-          })}
-        </div>
-      </>
-    );
-  }
 }
+
+export default ClassComponentF

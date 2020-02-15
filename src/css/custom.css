@@ -58,8 +58,14 @@
   background-color: #4CAF50;
 }
 
+/* Function > Function */
+
 .bg-color--magenta {
   background-color: #E91E63;
+}
+
+.bg-color--magenta .bg-color--magenta {
+  background-color: #FF9800;
 }
 
 .border-2px-blue {

@@ -16,7 +16,7 @@ class SearchContainer extends React.Component {
 
   render() {
     return (
-      <div className="vertical-inline-flex bg-661fff pad-all-20 margin-t-20">
+      <div className="vertical-inline-flex bg-661fff pad-all-20 shadow-3">
         <p className="color-ffffff">guardianapis.com API</p>
         <Search
           performSearch={this.performSearch}
