@@ -1,8 +1,6 @@
 # React Architecture
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/screenshotC.png">
-</p>
+<img src="https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/screenshotC.png">
 
 ## Contents:
 
