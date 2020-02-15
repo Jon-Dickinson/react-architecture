@@ -1,4 +1,4 @@
-# React Architecture
+# React Architecture I
 
 <img src="https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/screenshotC.png">
 
