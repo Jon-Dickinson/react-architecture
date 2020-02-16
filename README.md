@@ -1,25 +1,18 @@
 # React Architecture I
 
+JavaScript frameworks keep UI in sync with the state.
+
 <img src="https://raw.githubusercontent.com/Jon-Dickinson/react-architecture/master/src/images/screenshotC.png">
 
 ## Contents:
-
- - React vs JavaScript
+ 
  - trends
  - `.jsx`
  - popular component types
  - efficient practises
  - component tree hierarchies
 
-## Packages
 
- - [axios](https://github.com/axios/axios)
- - [bit](https://docs.bit.dev/docs/quick-start)
- - [prop-types](https://www.npmjs.com/package/prop-types)
-
-## JavaScript Frameworks
-
-JavaScript frameworks keep the UI in sync with the state.
 
 ## Trends
 
@@ -258,3 +251,10 @@ container ┳━ function
           ┠━ function
           ┗━ class ━ function
 ```
+
+## Packages
+
+ - [axios](https://github.com/axios/axios)
+ - [bit](https://docs.bit.dev/docs/quick-start)
+ - [prop-types](https://www.npmjs.com/package/prop-types)
+ 
